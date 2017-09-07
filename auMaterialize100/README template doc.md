@@ -3,7 +3,8 @@
 Basert på aurelia-cli 0.31.3 med webpack / TS
 
 ## Prereq
-+ npm install script-loader -S
++ \>npm install script-loader -S
++ \>npm config set package-lock false
 
 ## Materialize
 + \>npm install materialize-css -S

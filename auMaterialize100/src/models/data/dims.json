@@ -1,0 +1,29 @@
+{
+  "@odata.context":"http://hackaton.westeurope.cloudapp.azure.com/dwhService/ssas/$metadata#Dims","value":[
+    {
+      "Name":"ACCOUNT_MASTER","Caption":"ACCOUNT_MASTER","Description":"","UniqueName":"[ACCOUNT_MASTER]","AttributeHierarchiesCount":4,"DimensionType":3,"HierarchiesCount":4,"WriteEnabled":false
+    },{
+      "Name":"CALENDAR","Caption":"CALENDAR","Description":"","UniqueName":"[CALENDAR]","AttributeHierarchiesCount":5,"DimensionType":1,"HierarchiesCount":5,"WriteEnabled":false
+    },{
+      "Name":"CLIENT_PORTFOLIO","Caption":"CLIENT_PORTFOLIO","Description":"","UniqueName":"[CLIENT_PORTFOLIO]","AttributeHierarchiesCount":1,"DimensionType":3,"HierarchiesCount":1,"WriteEnabled":false
+    },{
+      "Name":"CLIENTS","Caption":"CLIENTS","Description":"","UniqueName":"[CLIENTS]","AttributeHierarchiesCount":17,"DimensionType":3,"HierarchiesCount":17,"WriteEnabled":false
+    },{
+      "Name":"INSURANCE_POLICIES","Caption":"INSURANCE_POLICIES","Description":"","UniqueName":"[INSURANCE_POLICIES]","AttributeHierarchiesCount":1,"DimensionType":3,"HierarchiesCount":1,"WriteEnabled":false
+    },{
+      "Name":"INTERACTIONS_HISTORY","Caption":"INTERACTIONS_HISTORY","Description":"","UniqueName":"[INTERACTIONS_HISTORY]","AttributeHierarchiesCount":5,"DimensionType":3,"HierarchiesCount":5,"WriteEnabled":false
+    },{
+      "Name":"INTERACTIONS_HISTORY_LOGINS","Caption":"INTERACTIONS_HISTORY_LOGINS","Description":"","UniqueName":"[INTERACTIONS_HISTORY_LOGINS]","AttributeHierarchiesCount":1,"DimensionType":3,"HierarchiesCount":1,"WriteEnabled":false
+    },{
+      "Name":"MARKETING_CAMPAIGNS","Caption":"MARKETING_CAMPAIGNS","Description":"","UniqueName":"[MARKETING_CAMPAIGNS]","AttributeHierarchiesCount":3,"DimensionType":3,"HierarchiesCount":3,"WriteEnabled":false
+    },{
+      "Name":"Measures","Caption":"Measures","Description":"","UniqueName":"[Measures]","AttributeHierarchiesCount":1,"DimensionType":2,"HierarchiesCount":1,"WriteEnabled":false
+    },{
+      "Name":"PRODUCT_MASTER","Caption":"PRODUCT_MASTER","Description":"","UniqueName":"[PRODUCT_MASTER]","AttributeHierarchiesCount":3,"DimensionType":3,"HierarchiesCount":3,"WriteEnabled":false
+    },{
+      "Name":"TRADING_HISTORY","Caption":"TRADING_HISTORY","Description":"","UniqueName":"[TRADING_HISTORY]","AttributeHierarchiesCount":3,"DimensionType":3,"HierarchiesCount":3,"WriteEnabled":false
+    },{
+      "Name":"TRANSACTION_HISTORY","Caption":"TRANSACTION_HISTORY","Description":"","UniqueName":"[TRANSACTION_HISTORY]","AttributeHierarchiesCount":1,"DimensionType":3,"HierarchiesCount":1,"WriteEnabled":false
+    }
+  ]
+}
