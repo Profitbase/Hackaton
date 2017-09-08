@@ -7,3 +7,12 @@
 .app-bold {
   font-weight: bold !important;
 }
+
+.app-vcenter {
+  padding-bottom: 5px;
+}
+
+.app-icon-pad {
+  margin-top: 3px;
+  padding-bottom: 1px;
+}
