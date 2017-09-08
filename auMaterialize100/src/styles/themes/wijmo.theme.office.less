@@ -1,0 +1,76 @@
+// ----------------------------------------------------------------------
+//  Base theme colors & style settings
+// ----------------------------------------------------------------------
+
+@background: #ffffff;
+@text: #222;
+@border-radius: 0;
+
+@input-background: @background;
+@input-text: @text;
+
+@header: #eaeaea;
+@header-text: #222;
+
+@selected: #217346;
+@selected-text:  #ffffff;
+@multi-selected: #e6e6e6;
+@multi-selected-text: @text;
+@grid-group-background: #d9d9d9;
+@grid-group-text: #000;
+@grid-frozen-cell: #e7eef1;
+@grid-frozen-cell-text: @text;
+@grid-left-side-col: @header;
+@grid-cell-border: 1px;
+
+@button: #fff;
+@button-hover: #e8e8e8;
+@button-text:  #666666;
+@button-group-border: 1px;
+
+@tool-tip: #ffffff;
+@tool-tip-text: #000000;
+
+@background-grad: false; // If 'true' will render background with gradient
+@button-grad: false; // if 'true' will render buttons with gradient
+@header-grad: false; // if 'true' will render grid headers with gradient
+@input-grad: false; // if 'true' will render input boxes with gradient
+
+// ----------------------------------------------------------------------
+//  Import external files
+// ----------------------------------------------------------------------
+
+@import "mixins/color-functions";
+@import "mixins/guards";
+@import "mixins/styles";
+
+// ---------------------------------------------------------------------------
+//  Additional theme-specific styling
+// ---------------------------------------------------------------------------
+
+.wj-dropdown-panel {
+	outline: none;
+	box-shadow: none;
+}
+
+.wj-colheaders .wj-header.wj-state-multi-selected {
+	/* Selected column headers */
+	color: @selected !important;
+}
+
+.wj-rowheaders .wj-header.wj-state-multi-selected {
+	/* Selected row headers */
+	color: @selected !important;
+}
+
+.wj-alt:not(.wj-header):not(.wj-group):not(.wj-state-selected):not(.wj-state-multi-selected) {
+	background: #fff;
+}
+
+.wj-multi-autocomplete {
+    border: 1px solid rgba(0,0,0,0.15);
+}
+
+.wj-multi-autocomplete .wj-token {
+    border-color: rgba(0,0,0,0.15);
+}
