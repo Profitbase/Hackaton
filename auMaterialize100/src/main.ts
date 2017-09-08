@@ -7,6 +7,7 @@ import * as Bluebird from 'bluebird';
 
 import '../styles/wijmo.css';
 import '../styles/themes/material/wijmo.theme.material.amber-blue.min.css';
+import '../styles/card1.css';
 
 import "script-loader!./libs/wijmo/334/cultures/wijmo.culture.no.min.js";
 
