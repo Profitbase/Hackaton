@@ -1,4 +1,5 @@
 <template>
+  <require from="../elements/elm-chart"></require>
   <h4>Status:</h4>
 
   <h5>Lønnsomhet: ${Lonsomhet}% </h5>
@@ -15,4 +16,6 @@
   <div class="progress">
     <div class="determinate" style.bind="Progress.Tilfredshet"></div>
   </div>
+
+  <elm-chart></elm-chart>
 </template>
