@@ -1,3 +1,45 @@
+import {bindable} from 'aurelia-framework';
+import { FlexChart } from 'wijmo/wijmo.chart';
+import {CollectionView } from 'wijmo/wijmo';
+
+export class CmpPanel2 {
+  @bindable value;
+  elmChartDiv: Element
+
+  constructor () {
+
+  }
+
+  attached() {
+    let data = new CollectionView(this.getData());
+    let theChart = new FlexChart(this.elmChartDiv, {
+      itemsSource: data,
+      bindingX: 'country',
+      series: [
+        { binding: 'savings', name: 'Sparing' },
+        { binding: 'credit', name: 'Kreditt' },
+        { binding: 'wealth', name: 'Formue' }
+      ]
+    })
+  }
+
+  valueChanged(newValue, oldValue) {
+
+  }
+
+  getData() {
+  var data = [];
+    data.push({
+      area: 'Område',
+      savings: Math.random() * 10000,
+      credit: Math.random() * 5000,
+      wealth: Math.round(Math.random() * 20000),
+    });
+  return data;
+  }
+}
+
+/*
 import * as zingchart from "zingchart";
 
 export class CmpPanel2 {    
@@ -134,3 +176,4 @@ export class CmpPanel2 {
   }
 
 }
+*/

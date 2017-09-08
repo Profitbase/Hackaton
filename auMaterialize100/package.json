@@ -15,8 +15,8 @@
     "bluebird": "^3.4.1",
     "materialize-css": "^0.100.2",
     "script-loader": "^0.7.0",
-    "zingchart": "^2.6.1",
-    "wijmo": "file:src\\libs\\wijmo\\334\\wijmo-commonjs-min"
+    "wijmo": "file:src\\libs\\wijmo\\334\\wijmo-commonjs-min",
+    "zingchart": "^2.6.1"
   },
   "peerDependencies": {},
   "devDependencies": {
