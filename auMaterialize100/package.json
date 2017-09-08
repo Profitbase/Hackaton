@@ -14,7 +14,8 @@
     "aurelia-polyfills": "latest",
     "bluebird": "^3.4.1",
     "materialize-css": "^0.100.2",
-    "script-loader": "^0.7.0"
+    "script-loader": "^0.7.0",
+    "zingchart": "^2.6.1"
   },
   "peerDependencies": {},
   "devDependencies": {

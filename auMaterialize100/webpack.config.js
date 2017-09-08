@@ -32,7 +32,8 @@ module.exports = ({production, server, extractCss, coverage} = {}) => ({
     app: ['aurelia-bootstrapper'],
     vendor: ['bluebird',
       "materialize-css",
-      "aurelia-materialize-bridge"],
+      "aurelia-materialize-bridge",
+      "zingchart"],
   },
   output: {
     path: outDir,
