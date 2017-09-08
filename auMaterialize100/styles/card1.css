@@ -122,3 +122,7 @@
     margin-right: 10px;
     font-size: 1.2em;
 }
+
+.card-action.toggleStats > a{
+    color:white!important;
+}
