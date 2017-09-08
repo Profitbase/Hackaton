@@ -1,21 +1,22 @@
 <template>
-  <require from="../elements/elm-chart"></require>
+
   <h4>Status:</h4>
 
-  <h5>Lønnsomhet: ${Lonsomhet}% </h5>
+  <h5>Lønnsomhet:</h5>
   <div class="progress">
+    <div class="determinate" style.bind="Progress.Lonsomhet"></div>
     <div class="determinate" style.bind="Progress.Lonsomhet"></div>
   </div>
 
-  <h5>Lojalitet: ${Lojalitet}% </h5>
+  <h5>Lojalitet:</h5>
   <div class="progress">
     <div class="determinate" style.bind="Progress.Lojalitet"></div>
   </div>
 
-  <h5>Tilfredshet: ${Tilfredshet}% </h5>
+  <h5>Tilfredshet:</h5>
   <div class="progress">
     <div class="determinate" style.bind="Progress.Tilfredshet"></div>
   </div>
 
-  <elm-chart></elm-chart>
+
 </template>

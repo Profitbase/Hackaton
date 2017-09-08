@@ -7,11 +7,13 @@ import * as Bluebird from 'bluebird';
 
 import '../styles/wijmo.css';
 import '../styles/themes/material/wijmo.theme.material.amber-blue.min.css';
-import '../styles/app-styles.css';
+
 import "script-loader!./libs/wijmo/334/cultures/wijmo.culture.no.min.js";
 
 import 'materialize-css';
 import 'materialize-css/dist/css/materialize.min.css';
+
+import '../styles/app-styles.css';
 
 // remove out if you don't want a Promise polyfill (remove also from webpack.config.js)
 Bluebird.config({ warnings: { wForgottenReturn: false } });
