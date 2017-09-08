@@ -108,7 +108,11 @@
   width: 70%;
 }
 
-.panel1_stats{
+.panel1_stats{    
     display: flex;
     flex-direction: column;
+}
+
+.flipper{
+    margin-top:20px;
 }
