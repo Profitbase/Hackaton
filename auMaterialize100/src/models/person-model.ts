@@ -11,9 +11,9 @@ export class PersonModel {
   };
 
   private _statusInfo = {
-    Lonsomhet: 34,
-    Lojalitet: 55,
-    Tilfredshet:77
+    Lonsomhet: 70,
+    Lojalitet: 50,
+    Tilfredshet:30
   }
 
   getPersonInfo() {
