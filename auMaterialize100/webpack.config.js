@@ -33,7 +33,11 @@ module.exports = ({production, server, extractCss, coverage} = {}) => ({
     vendor: ['bluebird',
       "materialize-css",
       "aurelia-materialize-bridge",
-      "zingchart"],
+      "zingchart",
+      'wijmo/wijmo',
+      'wijmo/wijmo.input',
+      'wijmo/wijmo.grid',
+      'wijmo/wijmo.nav'],
   },
   output: {
     path: outDir,

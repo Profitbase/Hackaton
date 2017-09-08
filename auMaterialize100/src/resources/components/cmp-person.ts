@@ -9,6 +9,8 @@ export class CmpPerson {
   Mobil: string;
   Titel: string;
   Notat: string;
+  AntallBarn: number;
+  Relasjon: boolean;
 
   constructor(private _pm: PersonModel) {
     let pinfo = _pm.getPersonInfo();
@@ -17,5 +19,7 @@ export class CmpPerson {
     this.Epost = pinfo.Epost;
     this.Titel = pinfo.Titel;
     this.Notat = pinfo.Notat;
+    this.AntallBarn = pinfo.AntallBarn;
+    this.Relasjon = pinfo.Relasjon;
   }
 }

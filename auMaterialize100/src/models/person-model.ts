@@ -5,13 +5,15 @@ export class PersonModel {
     Titel: "Prosjekt leder",
     Epost: "peder.as@norge.no",
     Mobil: "97679769",
+    AntallBarn: 3,
+    Relasjon: true,
     Notat: "Peder As er kjent fra uttallige sammenhenger og ser ut til å ha en finger i det meste."
   };
 
   private _statusInfo = {
-    Lonsomhet: 34,
-    Lojalitet: 55,
-    Tilfredshet:77
+    Lonsomhet: 70,
+    Lojalitet: 50,
+    Tilfredshet:30
   }
 
   getPersonInfo() {

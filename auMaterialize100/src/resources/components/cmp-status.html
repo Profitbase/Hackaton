@@ -1,18 +1,22 @@
 <template>
-  <h4>Status:</h4>
 
-  <h5>Lønnsomhet: ${Lonsomhet}% </h5>
+  <h5 class="app-bold">Nøkkelverdier:</h5>
+
+  <h6>Lønnsomhet:</h6>
   <div class="progress">
     <div class="determinate" style.bind="Progress.Lonsomhet"></div>
+
   </div>
 
-  <h5>Lojalitet: ${Lojalitet}% </h5>
+  <h6>Lojalitet:</h6>
   <div class="progress">
     <div class="determinate" style.bind="Progress.Lojalitet"></div>
   </div>
 
-  <h5>Tilfredshet: ${Tilfredshet}% </h5>
+  <h6>Tilfredshet:</h6>
   <div class="progress">
     <div class="determinate" style.bind="Progress.Tilfredshet"></div>
   </div>
+
+
 </template>
