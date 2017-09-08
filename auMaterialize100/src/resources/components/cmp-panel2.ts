@@ -20,7 +20,8 @@ export class CmpPanel2 {
         { binding: 'credit', name: 'Kreditt' },
         { binding: 'wealth', name: 'Formue' }
       ]
-    })
+    });
+    theChart.rotated = true;
   }
 
   valueChanged(newValue, oldValue) {
@@ -30,7 +31,6 @@ export class CmpPanel2 {
   getData() {
   var data = [];
     data.push({
-      area: 'Område',
       savings: Math.random() * 10000,
       credit: Math.random() * 5000,
       wealth: Math.round(Math.random() * 20000),
