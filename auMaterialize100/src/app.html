@@ -5,10 +5,20 @@
 
     <div class="row">
 
-      <elm-card title="Card Title Header"
-          text="I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup
-          to use effectively"></elm-card>
-          
+      <elm-card title="Hackaton 2017"
+          text="Super brains at work..."></elm-card>
+
+      <div class="col s6">
+          <compose view-model="./resources/components/cmp-person" model.bind="{ demo: 'test' }"></compose>
+      </div>
+
+      <div class="col s6">
+          <compose view-model="./resources/components/cmp-status" model.bind="{ demo: 'test' }"></compose>
+      </div>
+
+    </div>
+
+    <div class="row">
 
       <div class="col s4">
         <compose view-model="./resources/components/cmp-panel1" model.bind="{ demo: 'test' }"></compose>
@@ -24,21 +34,18 @@
     </div>
 
 
-    <div class="progress">
-      <div class="determinate" style="width: 70%"></div>
-    </div>
-   
+
+
     <div class="row">
       <div class="col 8m">
-          <compose view-model="./resources/components/cmp-person"
-          model.bind="{ demo: 'test' }"></compose>
+
       </div>
 
       <div class="col s4">
           <a class="waves-effect waves-light btn" click.delegate="getData()">Hent data</a>
       </div>
     </div>
-    
+
   </div>
 
 </template>
